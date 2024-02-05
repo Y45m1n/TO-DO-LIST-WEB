@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.to-do__box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.to-do__label-area {
+    margin-bottom: 10px;
+}
+
+.to-do__label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+}
+
+.to-do__input-area {
+    margin-bottom: 20px;
+}
+
+.to-do__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-purpple {
+    background-color: #800080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-purpple:hover {
+    background-color: #6a006a;
+}
+
+.select-all__area {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-gray {
+    background-color: #ccc;
+    color: #333;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button-gray:hover {
+    background-color: #b5b5b5;
+}
+
+.to-do__box.add-itens {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
